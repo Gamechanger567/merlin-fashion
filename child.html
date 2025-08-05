@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Child Labor Awareness</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+        }
+        section {
+            padding: 20px;
+        }
+        ul {
+            list-style-type: square;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Child Labor Awareness</h1>
+    </header>
+    <section id="main-content">
+        <h2>What is Child Labor?</h2>
+        <p>Child labor refers to the exploitation of children through work that deprives them of their childhood, education, or dignity.</p>
+
+        <h2>Facts About Child Labor</h2>
+        <ul id="facts-list"></ul>
+        
+        <h2>Call to Action</h2>
+        <p id="call-to-action"></p>
+    </section>
+
+    <script>
+        // Variables
+        const facts = [
+            "Over 160 million children are involved in child labor worldwide.",
+            "Child labor violates children's fundamental rights.",
+            "Poverty is one of the main causes of child labor.",
+            "Education is a key solution to ending child labor."
+        ];
+
+        const message = "Join us in raising awareness and supporting initiatives to end child labor!";
+
+        // Function to display facts
+        function displayFacts(factsArray) {
+            const factsList = document.getElementById('facts-list');
+            factsArray.forEach(fact => {
+                const li = document.createElement('li');
+                li.textContent = fact;
+                factsList.appendChild(li);
+            });
+        }
+
+        // Generator to show messages dynamically
+        function* messageGenerator(messages) {
+            for (const message of messages) {
+                yield message;
+            }
+        }
+
+        // Display facts on the page
+        displayFacts(facts);
+
+        // Display a message from the generator
+        const messages = [message, "Together, we can make a difference!", "Say no to child labor!"];
+        const callToActionGenerator = messageGenerator(messages);
+        document.getElementById('call-to-action').textContent = callToActionGenerator.next().value;
+
+        // Single-line comment: Log facts in the console
+        console.log("Facts about child labor:", facts);
+    </script>
+</body>
+</html>
