@@ -1,25 +1,87 @@
-<h1 align = "center">Merlin Fashion🛒</h1>
+# Merlin Fashion 👗
+
+**Merlin Fashion** is a stylish, modern, and responsive clothing brand website designed to showcase fashion products with an elegant user interface.
+
+---
+
+## 🛍️ Features
+
+- 🧥 Home page showcasing featured categories and collections
+- 🔍 Category browsing (Men, Women, Accessories, etc.)
+- 👤 Login interface (UI only)
+- 🧭 Responsive navigation bar
+- 🎨 Custom CSS styling
+- 🖱️ JavaScript-enhanced interactions
+
+---
+
+## 💻 Tech Stack
+
+- **HTML5**
+- **CSS3**
+- **JavaScript (Vanilla)**
+- No frameworks used — built from scratch!
+
+---
+
+## 📂 Project Structure
+
+Merlin-Fashion/
+│
+├── css/
+│ ├── categories.css
+│ ├── login.css
+│ ├── merlin.css
+│ ├── nav.css
+│ └── style_index.css
+│
+├── js/
+│ ├── login.js
+│ ├── nav.js
+│ └── products.js
+│
+├── index.html
+├── login.html
+├── merlin.html
+├── categories.html
+├── contact.html
+└── README.md
 
 
-<p align="center">Refresh Your Wardrobe!🛍️ 
- <p align="center">
-With a passion for fashion here's my very own custom website relating to it.💃
- </p>
- 
- 
- <p align="center">
- The template is for the Online Clothing Fashion which includes trending wardrobe collection. The website is made from scratch 🥳 and doesn't include any readymade code.
-Merlin Fashion doesn't include anything related to database, it is just a HTML, CSS and JS template. Though you can find some familiar images used in the website taken from various sources, but the purpose is to only make it more beautiful.🖤
+---
 
- </p>
+## 🌐 Live Demo
 
-  <p align="center">
-    And that's how it looks🤩
- </p>
- <p align="center">
- <img src="https://user-images.githubusercontent.com/47295558/76738138-11372680-6790-11ea-82c6-c27a9c2b7b68.gif">
-  </p>
- <p align="center">
- Saw all the other pages?🧐 Go check it out now!🥳 
-  https://gamechanger567.github.io/merlin-fashion/
-</p>
+🔗 [Visit the Live Site](https://gamechanger567.github.io/merlin-fashion)
+
+> Hosted using **GitHub Pages**.
+
+---
+
+## 👤 Author
+
+**Subham Modi**  
+📧 [modisubham1709@gmail.com](mailto:modisubham1709@gmail.com)  
+🔗 [GitHub](https://github.com/Gamechanger567)
+
+---
+
+## 📄 License
+
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
+
+---
+
+## 🙏 Credits
+
+Inspired by modern e-commerce UI design and built as a static website project.
+
+---
+
+## 🚀 Future Improvements (Optional)
+
+- Add shopping cart functionality
+- Integrate backend login system
+- Use animations for better UX
+- Add product database
+
